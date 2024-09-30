@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_title__",
+  "version": "0.1.6",
+  "description": "__MSG_description__",
+  "default_locale": "en",
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/suite_16.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "icons": {
+    "128": "icons/suite_128.png",
+    "48": "icons/suite_48.png",
+    "32": "icons/suite_32.png",
+    "16": "icons/suite_16.png"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+D"
+      },
+      "description": "Open the extension popup"
+    }
+  }
+}
