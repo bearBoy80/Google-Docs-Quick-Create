@@ -48,7 +48,7 @@ function update_links() {
     links += `
       <li>
         <a href="${url}" target="_blank" data-doc-type="${doc_type}">
-          <img src="${doc_type}-32.png" width="32" height="32">
+          <img src="${doc_type}.png" width="32" height="32">
           <label>${label}</label>
         </a>
       </li>
